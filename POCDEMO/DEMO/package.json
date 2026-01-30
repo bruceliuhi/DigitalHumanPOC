@@ -1,0 +1,27 @@
+{
+  "name": "virtualman",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/",
+    "obfuscate:digitalman": "npx javascript-obfuscator ../DigitalMan_SDK/DigitalMan.js --output src/utils/DigitalMan.js --unicode-escape-sequence true"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "crypto-js": "^4.2.0",
+    "tcplayer.js": "^5.3.4",
+    "three": "^0.178.0",
+    "uuid": "^11.1.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "prettier": "3.5.3",
+    "vite": "^7.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  }
+}

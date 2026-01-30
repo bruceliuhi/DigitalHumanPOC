@@ -1,0 +1,16 @@
+# System files
+.DS_Store
+~$*
+
+# Temporary files
+.tmp_*/
+*.log
+
+# Large archives (too big for GitHub)
+*.zip
+
+# Build outputs
+node_modules/
+dist/
+build/
+.cache/
