@@ -1,7 +1,7 @@
-import { ReactNode, useState } from 'react';
+﻿import { ReactNode, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { ArrowLeft, ChevronDown, ChevronUp, Volume2, VolumeX } from 'lucide-react';
-import backgroundImage from 'figma:asset/ecaed0cd4b311eba7cd9af4c2b67b89b7d40a9df.png';
+import backgroundImage from '@/assets/ecaed0cd4b311eba7cd9af4c2b67b89b7d40a9df.png';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 interface PageLayoutProps {

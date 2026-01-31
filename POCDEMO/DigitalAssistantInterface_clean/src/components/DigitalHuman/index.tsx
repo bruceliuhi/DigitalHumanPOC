@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { useDigitalHuman } from '@/contexts/DigitalHumanContext';
-import { Button } from '@/components/ui/button'; // 假设有 shadcn/ui 组件，如果没有则用 html button
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Button } from '@/app/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/app/components/ui/card';
+import { Badge } from '@/app/components/ui/badge';
 
 // 如果没有 shadcn/ui，定义简单组件
 const SimpleButton = ({ children, onClick, variant, className }: any) => (

@@ -59,7 +59,7 @@ const DM_CONFIG = {
     figure_id: '35967f5', 
     voice_id: '10a1120', 
     mobile: '13436983578', 
-    name: 'ServerModeSession_' + Date.now(),
+    name: 'BankPOCTest' + Date.now(),
     voice_volume: 10,
     voice_speed: 5
 }
